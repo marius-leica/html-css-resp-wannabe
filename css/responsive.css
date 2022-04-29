@@ -1,17 +1,9 @@
-/* @media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .container {
-    width: 700px;
+    width: 748px;
     padding: 0 10px;
   }
-  .row {
-    justify-content: center;
-  }
-
-  .col {
-    flex-basis: 50%;
-    flex-grow: 0;
-  }
-} */
+}
 
 @media screen and (max-width: 480px) {
   .site-header {
