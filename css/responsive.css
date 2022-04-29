@@ -1,0 +1,56 @@
+/* @media screen and (max-width: 768px) {
+  .container {
+    width: 700px;
+    padding: 0 10px;
+  }
+  .row {
+    justify-content: center;
+  }
+
+  .col {
+    flex-basis: 50%;
+    flex-grow: 0;
+  }
+} */
+
+@media screen and (max-width: 480px) {
+  .site-header {
+    padding: 0 10px;
+  }
+  .container {
+    width: 100%;
+    padding: 0 10px;
+  }
+  .row {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .lessons .col {
+    width: 100%;
+  }
+
+  .lessons .col:first-child {
+    margin-bottom: 40px;
+  }
+
+  .steps {
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+  .steps .col {
+    width: 100%;
+    margin-bottom: 48px;
+  }
+
+  .why-us {
+    background-color: rgb(34, 34, 34);
+    margin-bottom: 0;
+    padding-bottom: 0;
+    padding-top: 48px;
+  }
+  .why-us .col {
+    width: 100%;
+    margin-bottom: 48px;
+  }
+}
